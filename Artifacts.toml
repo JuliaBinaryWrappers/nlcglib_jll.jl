@@ -1,0 +1,372 @@
+[[nlcglib]]
+arch = "aarch64"
+git-tree-sha1 = "5c04285e896aed4c01dbb2b94bcf6a53622b76f7"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[nlcglib.download]]
+    sha256 = "b56f902123572ff7196e2ebda2d61ba966a38dba4d6a2d4c7bf3404c2dbe5b50"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-apple-darwin-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+git-tree-sha1 = "807ac76997fbc24acfdd998a382ad92043668173"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[nlcglib.download]]
+    sha256 = "12a3729ac9f18b10936e50165ecf549fdef88b8b20bec3cdfb659e243e775548"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+git-tree-sha1 = "3c73d94aede5920eb713131712174eac2a339c4b"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[nlcglib.download]]
+    sha256 = "0c172586b9c53e6af186c14e76dace8f510eec99fd5a4a7b1ba04f28c5e63899"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4e6287b5319e80220c0f378417b109c0382f0459"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "44c2394547f071e2f5ad5c3f5b2579bda8d282011b7f066ffcb69133740744fb"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "599005ecb262c3f625f6c6a699c77a9410715994"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "29010e18145a7c2f66c8e2b4695e2fb365b6428af62a422e69e891dabe0d135f"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b27c1f7687972e71eabba9f20410a5f6301dc36a"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "899fa76deb046965d48af7becc8dc68ee4d5d8743175a3c68e91e841bac79767"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "11f833b96debbf3343e8c60ecfffadcde36f653b"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "1b75ab9ad81f68c3152d23f3f306d52c15e78f14e076ad7363d81cd26c01df9c"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0bbee8581cb42a1023c3cfa36300f5a3dc2acd24"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "a2da6fe7972765b3adeb84a04331fdfe700972e256bbb1d5b857c561bca34697"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "96f3c94fd0f52b6bd96136ff21b9a9888305fc3e"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "7ff8c5f7dd984137544348e0c387260fe41224aebf294862e7e8dcfd9ca2a441"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b60c7f74e431b6740c106fdb7084d6fcb37c8044"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "31ed3d61a021da0794ae5cc37cbbe64154c936ae3cc2eb3cba522bcd9dd075d8"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-musl-cxx03-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5642fb6d5df920eb4ccbe18dfba6ad5ebc9cde12"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "43a412411fa0abd61b0b850edb57fb2158a93dea9227fdcfc6a265a9d73ccd78"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2cfc166b64a2c10cd8dd1029ab283b821d58d609"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "e7598319d062e4d8cf17365f48ea3562da860ed713ecd2232c79bfa4378917a3"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "77ab105d9cd89bcd88b7c0e0da824b852653b6d9"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "3d01356ca0364b25d8c3f136fa3183523c56afca7a6b53d63d2ba21fb34adc2d"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.aarch64-linux-musl-cxx11-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0135bb5d1b842fdfa35cd194db7bbffe557a5387"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "d13a87b374152b05e833095a7071b4ff80f88793ef7c4ecb156508ec40553655"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.powerpc64le-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "61e839b4fd3e3744856756e087f71890ce20e612"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "0c92e4c68d1173cde6d21bad2ef40f0f5551adc0ca923ef95268e5360f46b0bc"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.powerpc64le-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2188d639b6cc086b4c1e7cd12606bbcd27648aa4"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "16398b111566d2a8abeb36de152149dc9852a05a10edc0386eca8bae183dfa51"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.powerpc64le-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f23bd9d4ae63c13f8c75ffa8f3dfc69aeea71f15"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "cc2a6fda15aa40427c9b7528524fc06c39d0f91b00734950a7e086915e2f0773"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.powerpc64le-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "00585bc88dfad480a13ed956b2440b24674569bf"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "f3c304e5e7e590d40026f573087ce0cb4dec9b041fb3a2ff6689cddc12a89582"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.powerpc64le-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "964672fc2d7940ec68c639f13d391ccc1c5d5d72"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "81b5945b66067f741f11d8ac9771f2da4907380ccd605cdc9de20f15a442b6d5"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.powerpc64le-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+git-tree-sha1 = "b686c793237d862c2ff54d3f1408457730e4f30c"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[nlcglib.download]]
+    sha256 = "cc06f9affeeb3b358467ab05e3ca0674537dd5af54b872d5bee191f9eddc98aa"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+git-tree-sha1 = "b0e1578f915144774d4bbe633cf03d837508e8a2"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[nlcglib.download]]
+    sha256 = "ee0bb6702a0909a8a40d6748353e26fb9a580127d4f3d1bf2ea2617a5acf2683"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+git-tree-sha1 = "a74efd3760f688a953364930a29e1758fc9a1960"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[nlcglib.download]]
+    sha256 = "0b2a23b4890c7dbcdddf62d87b5d48a883c2f4e75199192e75d24a3c5c8a5206"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1bba998864887dab3cbc1ad16422239c6c8fb2d0"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "3feff81275e0a78731907a5396adc33be2ffdc2ea9030670b2c4b1b97103dc1b"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-gnu-cxx03-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9071001e3229e650d73fd6c920f3e2327e562d3c"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "787c50d7b7663b31e67b8062e922d8395198e73408e9a6cfc349f949d32fb61e"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-gnu-cxx03-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "925f350dc9b91bc976e292976afb930cc6ee9300"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "86f88261656d95ae91b96680968ae423b54bc80079770966ae38fe7fe07f2945"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-gnu-cxx03-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "eb54764d794f5197a6ac27d1c048129f9fa8fe83"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "97a8e1ffee8d2bfa4870cdf8e82b5c965db4fbfd215f069bc1e8f00dd7ddd408"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "970efb6f5f82389d830c8b8f61291274f1e87b99"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "0395f8a31a1ec90df92242d30e8c15235e2000ebf8dac0227702025801133b1f"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-gnu-cxx11-mpi+mpitrampoline.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "26c2f5b903e2d80842cb6f199b84b2eb59415565"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "d4793d265250231cd31d2d4372e0bf4ff8ba7cb81e2c0ba23bd6ebb6f1ef1c37"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "840d222eb31bc811a23d4454ff3a84214e80fe7d"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "215d6b8b958a113a3f8858d73775456ab3a5892973205bb14d05951659852b59"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-musl-cxx03-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "54838f682ccd4ee5ab418af2153644cb032c6ed4"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "55c525911dfd6e047ce5065ccf67b84a7297ed596bd3854005f83ccae2b3b353"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-musl-cxx03-mpi+openmpi.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fba28d0c0aca7b6befac8e01a81a971d4157cfb4"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "e6e5c8c068b38a0d1578378a270f3d6350bc07726a67c6470dbcdbfc50b78739"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-musl-cxx11-mpi+mpich.tar.gz"
+[[nlcglib]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3f616c1e030dee3aadc4eb2e7728c0762fa1a8ab"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[nlcglib.download]]
+    sha256 = "e49c944b12940634a9cbd45415d6df74332604cca0aeefbc7fc465643b9edd5a"
+    url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.0.2+0/nlcglib.v1.0.2.x86_64-linux-musl-cxx11-mpi+openmpi.tar.gz"
