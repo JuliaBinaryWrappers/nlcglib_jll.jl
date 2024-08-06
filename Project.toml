@@ -1,6 +1,6 @@
 name = "nlcglib_jll"
 uuid = "782cc49c-e073-530d-b5fe-579a70b042cc"
-version = "1.0.2+0"
+version = "1.1.0+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
