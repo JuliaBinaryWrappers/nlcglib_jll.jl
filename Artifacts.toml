@@ -1,43 +1,48 @@
 [[nlcglib]]
 arch = "aarch64"
-git-tree-sha1 = "9822872a24eeed454f4e6d82612cfa838f1b6b49"
+git-tree-sha1 = "770f6c434ae9cb022375de7370b5cc13a2b56e19"
+lazy = true
 mpi = "mpiabi"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "a7503025f11831198dc98632e0dad8b12b30ca59cde70198f49501b01c6592f4"
+    sha256 = "ed08cd9ce1b243396a95bb55f74a6c8f084089073be8fce3fa5668c07b108f5c"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.aarch64-apple-darwin-mpi+mpiabi.tar.gz"
 [[nlcglib]]
 arch = "aarch64"
-git-tree-sha1 = "be4f497f3385dfa7e2cb75ad06867b942c3d0cd3"
+git-tree-sha1 = "76086f0bedf3f16b01d48fe345d08490ac958f85"
+lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "abe8eda8c9644910ee86f1aa7226b3719b55fa911c93c31d55f98517d4dcb439"
+    sha256 = "e937c60f9d7037ebc5481d3bedf5b7ce4415b654a66492eed449b466224bbac0"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[nlcglib]]
 arch = "aarch64"
-git-tree-sha1 = "72715997c0b97f5321390be5536edf19e6950a30"
+git-tree-sha1 = "09bc923cb94b133a6038f106c1f9d6e1313e235a"
+lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "4f4cb73f7fd898ea2654e25bcd338b198147071899889ffd34b0bbdebbf75a73"
+    sha256 = "f1fcd4396ef860a948e10307452307e3ff9a9fca77bc4ff59df796ae3b568760"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[nlcglib]]
 arch = "aarch64"
-git-tree-sha1 = "e9672f14995e7b7805a67895de417873b8569ef4"
+git-tree-sha1 = "d6318c9407df839a045660f0a51b9e52c4b24ab1"
+lazy = true
 mpi = "openmpi"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "a76f01dca7bad7fa28e31952ea074165f4fca6452fdd313aab837b50806e47be"
+    sha256 = "ef1f46002d4fb2fe5d9b890822b8634b67b51a51498b65942d0d17df413b5511"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.aarch64-apple-darwin-mpi+openmpi.tar.gz"
 [[nlcglib]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "1bf6e544f4f810268da2b11d090b9bbccc733005"
+lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
@@ -49,6 +54,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "ffca4f769e5f91362c702fdbcfe95b736bc8fa9e"
+lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
@@ -60,6 +66,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "e24237ed30a31699b37aafccee4faf85a4db18cc"
+lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
@@ -71,6 +78,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "884a2e469ac6944c5893a69a97aea5b95bccff2a"
+lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
@@ -82,6 +90,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "e9991988455bc1093cef28c2877c68adaebae525"
+lazy = true
 libc = "musl"
 mpi = "mpiabi"
 os = "linux"
@@ -93,6 +102,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "81bb9a02c905f8271141076a15da468ee2e1aae3"
+lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
@@ -104,6 +114,7 @@ os = "linux"
 arch = "aarch64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "84b004f20139f0eaba2eba347abacbe6b562de1f"
+lazy = true
 libc = "musl"
 mpi = "openmpi"
 os = "linux"
@@ -114,6 +125,7 @@ os = "linux"
 [[nlcglib]]
 arch = "aarch64"
 git-tree-sha1 = "ee7e11c34af804b22420d528b01874613ad40e09"
+lazy = true
 mpi = "mpiabi"
 os = "freebsd"
 
@@ -123,6 +135,7 @@ os = "freebsd"
 [[nlcglib]]
 arch = "aarch64"
 git-tree-sha1 = "ffe82393e4ef793b54c523b1bc7d6b6115fbecdb"
+lazy = true
 mpi = "mpich"
 os = "freebsd"
 
@@ -132,6 +145,7 @@ os = "freebsd"
 [[nlcglib]]
 arch = "aarch64"
 git-tree-sha1 = "91967a0bd3ebfe5b3f4f5ddfbb4dc416fc86d926"
+lazy = true
 mpi = "mpitrampoline"
 os = "freebsd"
 
@@ -141,6 +155,7 @@ os = "freebsd"
 [[nlcglib]]
 arch = "aarch64"
 git-tree-sha1 = "1bb645e552a8536c57977c21185c139438e52080"
+lazy = true
 mpi = "openmpi"
 os = "freebsd"
 
@@ -151,6 +166,7 @@ os = "freebsd"
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "e4bc8c42633920d1f076444ff8eea848a295ede8"
+lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
@@ -162,6 +178,7 @@ os = "linux"
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "fbfd4f963186ba9de8ee74b9077424a840b8ba1c"
+lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
@@ -173,6 +190,7 @@ os = "linux"
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "14fc7c539da057cd9274061f56fb208f1ea083c4"
+lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
@@ -184,6 +202,7 @@ os = "linux"
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "32dda1898b3104f7de4592ee65db70242dfa175f"
+lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
@@ -195,6 +214,7 @@ os = "linux"
 arch = "riscv64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "499194ba978d626e21708f84b1765c399420a768"
+lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
@@ -206,6 +226,7 @@ os = "linux"
 arch = "riscv64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "89f5141ba090b83a20f0b270c3ef86f5e8a47073"
+lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
@@ -217,6 +238,7 @@ os = "linux"
 arch = "riscv64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "498c454a5812eb769551b59810d04727fb0a2b94"
+lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
@@ -228,6 +250,7 @@ os = "linux"
 arch = "riscv64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "12b5fc2ae14e2ac743ccede75fc8a9ffea479a67"
+lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
@@ -237,44 +260,49 @@ os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.riscv64-linux-gnu-cxx11-mpi+openmpi.tar.gz"
 [[nlcglib]]
 arch = "x86_64"
-git-tree-sha1 = "44349ad8c94e3e5047e9d64cf3540c8febf46490"
+git-tree-sha1 = "fea57924ad8569b065602d13f6c489175dbf4a27"
+lazy = true
 mpi = "mpiabi"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "7173bed7b1a3d532d6f5c75bee54f6ae37d2f35907410fe07861abd2b64d1d8e"
+    sha256 = "0029ba184e074412615fcdf0b1fc47c6b3ab290343db083412ae13ea9354472d"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.x86_64-apple-darwin-mpi+mpiabi.tar.gz"
 [[nlcglib]]
 arch = "x86_64"
-git-tree-sha1 = "8b97a76465fff9538168e198f68fba23273907a9"
+git-tree-sha1 = "150baf3fcc20bcb9e0d6ce86dd9a06e83b10df16"
+lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "70403928c419ff9ad9a6177318fb0f27f96982d1a3ecac44e3ca379618b47c74"
+    sha256 = "d25c403cfa354b794dc244e0a92b03bb0d098ff96b8b58711057ba4829026bbd"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[nlcglib]]
 arch = "x86_64"
-git-tree-sha1 = "89d6b34e2364c3e2a868d7e6cb220e44303006e2"
+git-tree-sha1 = "ef28783f24eb8f2af264e786bf1bb943eb87bae3"
+lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "fd13431536af01476a33fde4cd1f0396eca60197bb72fdbf5dce0955e1b161b3"
+    sha256 = "fe10f5f828e322e973117e12b246ad879867f35cd07149dbcaa6cd72b0e501c9"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[nlcglib]]
 arch = "x86_64"
-git-tree-sha1 = "cad01b854a7f8db4552c89a48ceb22aa54d43f49"
+git-tree-sha1 = "fc2435ebf585b8babc2b38913563c6b4e6527db5"
+lazy = true
 mpi = "openmpi"
 os = "macos"
 
     [[nlcglib.download]]
-    sha256 = "5615dc38d362a6be21189ffb52516ae89f16e5b602dd24489f4392fe21bff516"
+    sha256 = "4b11f7c725ca1e965c448b8287077ec00b34e749b6767ff24251232feec26cb1"
     url = "https://github.com/JuliaBinaryWrappers/nlcglib_jll.jl/releases/download/nlcglib-v1.1.1+0/nlcglib.v1.1.1.x86_64-apple-darwin-mpi+openmpi.tar.gz"
 [[nlcglib]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "61d00d4cba470036975ce140bacdd21cf0adc84e"
+lazy = true
 libc = "glibc"
 mpi = "mpiabi"
 os = "linux"
@@ -286,6 +314,7 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "8e0cfda9dd482a07f341bf019b8de450c3c811d7"
+lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
@@ -297,6 +326,7 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "dc4dc0db5b6c539570564309660b40b585b17926"
+lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
@@ -308,6 +338,7 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "b272c7fbe425ea56db0d7cf2089d371c9e9e7134"
+lazy = true
 libc = "glibc"
 mpi = "openmpi"
 os = "linux"
@@ -319,6 +350,7 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "56b934a512b730f4bd65df46526da9067ebcc3ed"
+lazy = true
 libc = "musl"
 mpi = "mpiabi"
 os = "linux"
@@ -330,6 +362,7 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "ac1d94d9f0f6bf6e431eb6fa314293c515445c0f"
+lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
@@ -341,6 +374,7 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 git-tree-sha1 = "cfdb285b41c99e70f089e4ba31dd05f2d30caba4"
+lazy = true
 libc = "musl"
 mpi = "openmpi"
 os = "linux"
@@ -351,6 +385,7 @@ os = "linux"
 [[nlcglib]]
 arch = "x86_64"
 git-tree-sha1 = "89889f6a14e0b2669da73388ffafa6bb66869f92"
+lazy = true
 mpi = "mpiabi"
 os = "freebsd"
 
@@ -360,6 +395,7 @@ os = "freebsd"
 [[nlcglib]]
 arch = "x86_64"
 git-tree-sha1 = "abe0575e7100de16b49902c6c20bc2451e9d11fa"
+lazy = true
 mpi = "mpich"
 os = "freebsd"
 
@@ -369,6 +405,7 @@ os = "freebsd"
 [[nlcglib]]
 arch = "x86_64"
 git-tree-sha1 = "9f935220cfeedc178e05d063a891020a89b81f2b"
+lazy = true
 mpi = "mpitrampoline"
 os = "freebsd"
 
@@ -378,6 +415,7 @@ os = "freebsd"
 [[nlcglib]]
 arch = "x86_64"
 git-tree-sha1 = "a8b825fdcf8cdbe7c7b2754ce8443d2e279d413f"
+lazy = true
 mpi = "openmpi"
 os = "freebsd"
 
